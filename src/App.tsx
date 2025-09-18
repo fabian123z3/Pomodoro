@@ -105,7 +105,6 @@ function App() {
                 }}
                 className="bg-red-500 text-3xl">Reiniciar
                 </button>
-                <button>y el pic</button>
             </div>
 
         </div>
