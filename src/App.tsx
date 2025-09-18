@@ -88,14 +88,14 @@ function App() {
                 <button onClick={() => {
                     setfuncionamiento(true)
                 }}
-                className="bg-green-600">Empezar
+                className="bg-green-600 text-3xl">Empezar
                 </button>
 
                 {/*Boton para apagar el temporizador*/}
                 <button onClick={() => {
                     setfuncionamiento(false)
                 }}
-                className="bg-amber-400">Pausar
+                className="bg-amber-400 text-3xl">Pausar
                 </button>
 
                 {/*Boton para reiniciar temporizador*/}
@@ -103,7 +103,7 @@ function App() {
                     setTiempo(25 * 60)
                     setfuncionamiento(false)
                 }}
-                className="bg-red-500">Reiniciar
+                className="bg-red-500 text-3xl">Reiniciar
                 </button>
             </div>
 
